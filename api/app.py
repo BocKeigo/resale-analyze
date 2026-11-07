@@ -18,7 +18,7 @@ def connect():
 def product_rows(db, product_id=None):
     rows = db.execute("""
         SELECT p.id, p.name, p.category, p.edition, p.retail, p.evidence,
-               p.official_url AS "officialUrl", 'manual' AS source,
+               p.official_url AS "officialUrl", p.image_url AS "imageUrl", 'manual' AS source,
                json_agg(json_build_object(
                    'price', s.price, 'shipping', s.shipping, 'cost', s.cost,
                    'confirmedAt', s.confirmed_at, 'soldAt', coalesce(s.sold_at::text, ''),
@@ -105,11 +105,11 @@ def add_sale():
                 if category not in CATEGORIES:
                     raise ValueError("カテゴリを選択してください。")
                 product_id = db.execute("""
-                    INSERT INTO products (name, category, edition, retail, evidence, official_url)
-                    VALUES (%s, %s, %s, %s, %s, %s) RETURNING id
+                    INSERT INTO products (name, category, edition, retail, evidence, official_url, image_url)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s) RETURNING id
                 """, (field(product, "name"), category, field(product, "edition", required=False),
                       integer(product, "retail", 1), field(product, "evidence"),
-                      url(product, "officialUrl"))).fetchone()["id"]
+                      url(product, "officialUrl"), url(product, "imageUrl"))).fetchone()["id"]
             elif type(product_id) is not int or not 0 < product_id <= 2**63 - 1:
                 raise ValueError("登録先の商品を確認してください。")
             db.execute("""

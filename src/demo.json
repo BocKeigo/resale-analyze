@@ -1,1 +1,222 @@
-[{"id":1,"name":"月影クロニクル 限定版","category":"ゲーム","edition":"初回限定版","retail":7700,"evidence":"画面確認用の架空定価（税込）","officialUrl":"","source":"demo","sales":[{"price":12800,"confirmedAt":"2026-11-07T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":12150,"confirmedAt":"2026-11-02T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":11500,"confirmedAt":"2026-10-28T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":10850,"confirmedAt":"2026-10-19T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null}]},{"id":2,"name":"スターリンク コレクション BOX","category":"トレカ","edition":"未開封BOX","retail":5400,"evidence":"画面確認用の架空定価（税込）","officialUrl":"","source":"demo","sales":[{"price":9600,"confirmedAt":"2026-11-07T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":9200,"confirmedAt":"2026-11-02T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":8800,"confirmedAt":"2026-10-28T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":8400,"confirmedAt":"2026-10-19T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null}]},{"id":3,"name":"星灯りの魔法使い 1/7","category":"フィギュア","edition":"限定カラー","retail":15400,"evidence":"画面確認用の架空定価（税込）","officialUrl":"","source":"demo","sales":[{"price":22800,"confirmedAt":"2026-11-07T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":21900,"confirmedAt":"2026-11-02T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":21000,"confirmedAt":"2026-10-28T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":20100,"confirmedAt":"2026-10-19T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null}]},{"id":4,"name":"青い図書室 全巻セット","category":"書籍・漫画","edition":"特装版","retail":6600,"evidence":"画面確認用の架空定価（税込）","officialUrl":"","source":"demo","sales":[{"price":8400,"confirmedAt":"2026-11-07T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":7850,"confirmedAt":"2026-11-02T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":7300,"confirmedAt":"2026-10-28T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":6750,"confirmedAt":"2026-10-19T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null}]},{"id":5,"name":"アトリエ・ノヴァ コラボセット","category":"限定品","edition":"会場限定","retail":8800,"evidence":"画面確認用の架空定価（税込）","officialUrl":"","source":"demo","sales":[{"price":11200,"confirmedAt":"2026-11-07T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":10550,"confirmedAt":"2026-11-02T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":9900,"confirmedAt":"2026-10-28T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null},{"price":9250,"confirmedAt":"2026-10-19T18:00:00+09:00","soldAt":"","listingUrl":"","shipping":750,"cost":null}]}]
+[
+  {
+    "id": 1,
+    "name": "マリオカート ワールド",
+    "category": "ゲーム",
+    "edition": "Nintendo Switch 2 パッケージ版",
+    "retail": 9980,
+    "evidence": "任天堂の商品情報に掲載のパッケージ版希望小売価格（税込）",
+    "officialUrl": "https://www.nintendo.com/jp/games/switch2/aaaaa/products/soft.html",
+    "source": "demo",
+    "sales": [
+      {
+        "price": 12800,
+        "confirmedAt": "2026-11-07T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 12150,
+        "confirmedAt": "2026-11-02T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 11500,
+        "confirmedAt": "2026-10-28T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 10850,
+        "confirmedAt": "2026-10-19T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "スターリンク コレクション BOX",
+    "category": "トレカ",
+    "edition": "未開封BOX",
+    "retail": 5400,
+    "evidence": "画面確認用の架空定価（税込）",
+    "officialUrl": "",
+    "source": "demo",
+    "sales": [
+      {
+        "price": 9600,
+        "confirmedAt": "2026-11-07T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 9200,
+        "confirmedAt": "2026-11-02T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 8800,
+        "confirmedAt": "2026-10-28T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 8400,
+        "confirmedAt": "2026-10-19T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "星灯りの魔法使い 1/7",
+    "category": "フィギュア",
+    "edition": "限定カラー",
+    "retail": 15400,
+    "evidence": "画面確認用の架空定価（税込）",
+    "officialUrl": "",
+    "source": "demo",
+    "sales": [
+      {
+        "price": 22800,
+        "confirmedAt": "2026-11-07T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 21900,
+        "confirmedAt": "2026-11-02T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 21000,
+        "confirmedAt": "2026-10-28T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 20100,
+        "confirmedAt": "2026-10-19T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "青い図書室 全巻セット",
+    "category": "書籍・漫画",
+    "edition": "特装版",
+    "retail": 6600,
+    "evidence": "画面確認用の架空定価（税込）",
+    "officialUrl": "",
+    "source": "demo",
+    "sales": [
+      {
+        "price": 8400,
+        "confirmedAt": "2026-11-07T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 7850,
+        "confirmedAt": "2026-11-02T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 7300,
+        "confirmedAt": "2026-10-28T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 6750,
+        "confirmedAt": "2026-10-19T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "アトリエ・ノヴァ コラボセット",
+    "category": "限定品",
+    "edition": "会場限定",
+    "retail": 8800,
+    "evidence": "画面確認用の架空定価（税込）",
+    "officialUrl": "",
+    "source": "demo",
+    "sales": [
+      {
+        "price": 11200,
+        "confirmedAt": "2026-11-07T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 10550,
+        "confirmedAt": "2026-11-02T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 9900,
+        "confirmedAt": "2026-10-28T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      },
+      {
+        "price": 9250,
+        "confirmedAt": "2026-10-19T18:00:00+09:00",
+        "soldAt": "",
+        "listingUrl": "",
+        "shipping": 750,
+        "cost": null
+      }
+    ]
+  }
+]

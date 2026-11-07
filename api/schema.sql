@@ -5,7 +5,8 @@ CREATE TABLE products (
     edition text NOT NULL DEFAULT '',
     retail integer NOT NULL CHECK (retail > 0),
     evidence text NOT NULL,
-    official_url text NOT NULL DEFAULT ''
+    official_url text NOT NULL DEFAULT '',
+    image_url text NOT NULL DEFAULT ''
 );
 CREATE TABLE sales (
     id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
